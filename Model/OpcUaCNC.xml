@@ -71,5 +71,16 @@
         </opc:References>
     </opc:Object>
 
+    <opc:ObjectType SymbolicName="CncMessageType" TypeDefinition="OpcUa:DiscreteAlarmType">
+        <opc:DisplayName>CncMessageType</opc:DisplayName>
+        <opc:Description></opc:Description>
+        <opc:References>
+            <opc:Reference>
+                <opc:ReferenceType IsInverse="true">OpcUa:HasSubtype</opc:ReferenceType>
+                <opc:TargetId>OpcUa:BaseEventType</opc:TargetId>
+            </opc:Reference>
+        </opc:References>
+    </opc:ObjectType>
+
 
 </opc:ModelDesign>
