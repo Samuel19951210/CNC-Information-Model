@@ -139,7 +139,6 @@
   <UAObjectType NodeId="ns=1;i=15004" BrowseName="1:CncMessageType">
     <DisplayName>CncMessageType</DisplayName>
     <References>
-      <Reference ReferenceType="HasSubtype">i=2041</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=58</Reference>
     </References>
   </UAObjectType>
